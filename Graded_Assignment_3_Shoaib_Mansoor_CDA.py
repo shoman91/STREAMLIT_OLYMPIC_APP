@@ -15,7 +15,7 @@ df_regions=pd.read_csv('noc_regions.csv')
 #after initially cleaning the data using "athlete_events.csv" ONLY, I realized that the REGIONS column have a critical role, since the countries
 #are reffered and listed correctly in 'region' column ONLY in "noc_regions.csv"
 
-#completing the dataframe
+#completing the dataframe by merging
 df1=pd.merge(df_athletes,df_regions, on="NOC",how = "left")
 
 #----------------------------------BEGIN DATA CLEANING--------------------------------------------------------------------------------------------
