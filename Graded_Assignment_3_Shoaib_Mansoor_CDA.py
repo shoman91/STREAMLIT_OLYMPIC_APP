@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import matplotlib.pyplot as plt
+import matplotlib as plt
 import seaborn as sns
 st.set_page_config(layout="wide")
 
